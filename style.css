@@ -1,0 +1,134 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    position: relative;
+}
+#page1>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding :0px 30px;
+    position: absolute;
+    height: 7vh;
+    width: 100vw;
+    /* background-color: yellow; */
+    
+}
+#page1>nav>img{
+    width: 4.6%;
+    
+}
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #0b48ed;
+    color: white;
+    font-family: a;
+    font-size: 15px;
+}
+.Bottom-page1{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    height: 35vh;
+    width: 50vw;
+    /* background-color: red; */
+
+}
+.Bottom-page1>h1{
+    font-family: a;
+    font-size: 5vw;
+    font-weight: 100;
+    line-height: 1;
+    color: white;
+}
+
+.Bottom-page1-inner{
+    position: absolute;
+    bottom: 0%;
+    height: 35%;
+    width: 100%;
+    /* background-color: magenta; */
+}
+.Bottom-page1-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0px 5px; */
+    font-family: a;
+
+}
+.Bottom-page1-inner>button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: #0b48ed;
+    font-family: b;
+    font-size: 16px;
+}
+.Bottom-page1-inner>h4{
+    font-size: 1.3vw;
+    font-weight: 100;
+    color: white;
+}
+
+#page2{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: a;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    position: relative;
+    padding: 0vw 8vw;
+    color: white;
+}
+#page2>h2{
+    margin-bottom: 3vw;
+    font-weight: 100;
+}
+#page2>h1{
+    font-weight: 100;
+    line-height: 1.3;
+
+    width: 90%;
+    font-size: 4vw;
+    color: #dadada69;
+}
